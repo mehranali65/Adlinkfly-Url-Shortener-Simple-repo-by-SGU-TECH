@@ -24,15 +24,15 @@ bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
   const username = msg.from.username;
   const welcomeMessage = `😇 Hello, ${username}!\n\n`
-    + '✅Welcome to the Shrink Earn URL Shortener Bot🤖!\n'
+    + '✅Welcome to the Shrink Earn URL Shortener Bot🤖!\n\n'
     + '✅You can use this bot to shorten URLs using the shrinkearn.site api service📈.\n\n'
     + '✅To shorten a URL, just type or paste the URL directly in the chat, and the bot will provide you with the shortened URL📄.\n\n'
     + '✅If you haven\'t set your Shrink Earn API token yet, use the command:\n/setapi YOUR_ShrinkEarn_API_TOKEN🔒\n\n'
     + '🤔If you do not know how to get api key join our guide channel @shrinkearnguide.\n\n'
-    + '🥰For Further update join our Main Channel @shrinkearnsite.\n\n'
+    + '🥰For Future updates join our Main Channel @shrinkearnsite.\n\n'
   + '⚠️ You must have to send link with https:// or http://\n\n'
   + 'Made with ❤️ By: Shrink Earn Team';
-  + '**Now, go ahead and try it out!**';
+  + '**👍Now, go ahead and try it out!**';
 
   bot.sendMessage(chatId, welcomeMessage);
 });
